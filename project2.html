@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Two - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .project-detail {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        .project-header {
+            margin-bottom: 3rem;
+        }
+        
+        .project-header h1 {
+            font-size: 2.5rem;
+            color: #1f2937;
+            margin-bottom: 1rem;
+        }
+        
+        .project-meta {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            color: #6b7280;
+            margin-bottom: 2rem;
+        }
+        
+        .project-image-large {
+            width: 100%;
+            height: 400px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            border-radius: 12px;
+            margin-bottom: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+        }
+        
+        .project-section {
+            margin-bottom: 2.5rem;
+        }
+        
+        .project-section h2 {
+            font-size: 1.8rem;
+            color: #1f2937;
+            margin-bottom: 1rem;
+        }
+        
+        .project-section p {
+            color: #4b5563;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        
+        .tech-stack {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .tech-tag {
+            background: #fce7f3;
+            color: #9f1239;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .project-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Your Name</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="project-detail">
+        <a href="index.html#projects" class="back-link">← Back to Projects</a>
+        
+        <div class="project-header">
+            <h1>Project Two</h1>
+            <div class="project-meta">
+                <span><strong>Role:</strong> Frontend Developer</span>
+                <span><strong>Duration:</strong> 2 months</span>
+                <span><strong>Year:</strong> 2024</span>
+            </div>
+        </div>
+
+        <div class="project-image-large">
+            Project Screenshot or Demo
+        </div>
+
+        <div class="project-section">
+            <h2>Overview</h2>
+            <p>
+                Describe your second project here. What makes this different from your 
+                first project? What unique challenges did it present?
+            </p>
+            <p>
+                Explain the background, motivation, and objectives. Help visitors 
+                understand why this project matters.
+            </p>
+        </div>
+
+        <div class="project-section">
+            <h2>Technologies Used</h2>
+            <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">HTML/CSS</span>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <h2>Features</h2>
+            <p>
+                • Feature one: A key capability of this project<br>
+                • Feature two: Another important functionality<br>
+                • Feature three: What innovations did you introduce?<br>
+                • Feature four: Any unique technical implementations
+            </p>
+        </div>
+
+        <div class="project-section">
+            <h2>Development Process</h2>
+            <p>
+                Walk through your development process. What was your approach? Did you 
+                follow any specific methodologies? How did you plan and execute?
+            </p>
+            <p>
+                For example: "I started with wireframes and user research, then moved 
+                to prototyping in Figma before implementing the final design in code."
+            </p>
+        </div>
+
+        <div class="project-section">
+            <h2>Key Learnings</h2>
+            <p>
+                What did you learn from this project? What would you do differently 
+                next time? This section shows growth and reflection.
+            </p>
+            <p>
+                • Gained experience with API integration<br>
+                • Improved database design skills<br>
+                • Learned the importance of testing and documentation
+            </p>
+        </div>
+
+        <div class="project-links">
+            <a href="https://github.com/yourusername/project2" class="btn" target="_blank">View Code</a>
+            <a href="https://your-project2-demo.com" class="btn btn-secondary" target="_blank">Live Demo</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
